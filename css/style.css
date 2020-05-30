@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+/* -- SCROLLBAR -- */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cb4390;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ec50a8;
+}
+
+/* -- NAVIGACIJA -- */
+
+.navigacija {
+    display: flex;
+    position: relative;
+}
+
+.navigacija .sidebar {
+    width: 370px;
+    height: 100%;
+    padding: 30px 0px;
+    position: fixed;
+}
+
+.navigacija .sidebar .logo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.navigacija .sidebar ul li {
+    padding: 5%;
+    transition: .5s;
+}
+
+.navigacija .sidebar ul li a {
+    text-transform: uppercase;
+    color: #cb4390;
+    display: block;
+    font-size: 18px;
+    margin-left: 20%;
+    transition: .7s;
+}
+
+.navigacija .sidebar ul .active-nav {
+    background-color: #cb4390;
+    color: #fff;
+}
+
+.navigacija .sidebar ul .active-nav a {
+    color: #fff!important;
+}
+
+.navigacija .sidebar ul li:hover {
+    background-color: #cb4390;
+}
+
+.navigacija .sidebar ul li:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigacija .sidebar .social_media {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.navigacija .sidebar .social_media a {
+    font-size: 20px;
+    display: block;
+    width: 50px;
+    background: #cb4390;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10%;
+    transition: .5s background-color;
+}
+
+.navigacija .sidebar .social_media .face:hover {
+    background-color: #3b5998;
+    color: white;
+}
+
+.navigacija .sidebar .social_media .insta:hover {
+    background-color: #833AB4;
+    color: white;
+}
+
+.navigacija .sidebar .social_media .email:hover {
+    background-color: #D44638;
+    color: white;
+}
+
+@media (max-height: 800px) {
+    .social_media {
+        display: none !important;
+    }
+}
+
+/* -- TELO SAJTA -- */
+
+.telo {
+    width: 100%;
+    margin-left: 370px;
+}
+
+/* -- NASLOV -- */
+
+.proba {
+    position: relative;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    background: url('../img/naslovna.jpg') center center no-repeat;
+    background-size: cover;
+    float: right;
+}
+
+.proba:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #cb4390;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.naslov {
+    position: absolute;
+    margin-top: 10%;
+    left: 40%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.proba h1 {
+    font-size: 8vw;
+    overflow: hidden;
+}
+
+.proba p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin:0 15%;
+}
+
+.proba2 {
+    height: 30vh;
+    width: 100%;
+}
