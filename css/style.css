@@ -32,15 +32,29 @@ p{
 ::-webkit-scrollbar-thumb {
     background: #cb4390;
     border-radius: 50px;
+    
 }
 
 ::-webkit-scrollbar-track {
     background: #fff;
+    
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #ec50a8;
+    background: #e5a2c7;
 }
+
+/* -- SELEKTOVANJE -- */
+
+::-moz-selection { /* Za Firefox */
+    color: #fff;
+    background: #cb4390;
+  }
+  
+  ::selection {
+    color: #fff;
+    background: #cb4390;
+  }
 
 /* -- NAVIGACIJA -- */
 
