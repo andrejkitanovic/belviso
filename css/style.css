@@ -87,12 +87,11 @@
 }
 
 .navigacija .sidebar .social_media a {
-    font-size: 20px;
+    font-size: 25px;
     display: block;
     width: 50px;
-    background: #cb4390;
     height: 50px;
-    line-height: 50px;
+    background: #cb4390;
     text-align: center;
     margin: 0 10px;
     color: #fff;
@@ -101,20 +100,18 @@
     transition: .5s background-color;
 }
 
-.navigacija .sidebar .social_media .face:hover {
-    background-color: #3b5998;
-    color: white;
+.navigacija .sidebar .social_media a i{
+    margin-top: 12px;
 }
 
-.navigacija .sidebar .social_media .insta:hover {
-    background-color: #833AB4;
-    color: white;
+.navigacija .sidebar .social_media a:hover{
+    color:white;
 }
 
-.navigacija .sidebar .social_media .email:hover {
-    background-color: #D44638;
-    color: white;
-}
+.navigacija .sidebar .social_media .face:hover {background-color: #3b5998;}
+.navigacija .sidebar .social_media .insta:hover {background-color: #D44638;}
+.navigacija .sidebar .social_media .email:hover {background-color: #CC7722;}
+.navigacija .sidebar .social_media .phone:hover {background-color: #006400;}
 
 @media (max-height: 800px) {
     .social_media {
