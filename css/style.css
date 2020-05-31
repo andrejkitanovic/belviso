@@ -6,6 +6,7 @@
     text-decoration: none;
     font-family: 'Montserrat';
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* -- SCROLLBAR -- */
@@ -47,35 +48,51 @@
 }
 
 .navigacija .sidebar ul li {
+    position: relative;
     padding: 5%;
     transition: .5s;
+    overflow: hidden;
+}
+
+.navigacija .sidebar ul li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #cb4390;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: .5s;
+    z-index: 1;
+}
+
+.navigacija .sidebar ul li:hover:after {
+    transform: translateX(0%);
 }
 
 .navigacija .sidebar ul li a {
+    position: relative;
     text-transform: uppercase;
     color: #cb4390;
     display: block;
     font-size: 18px;
     margin-left: 20%;
-    transition: .7s;
-}
-
-.navigacija .sidebar ul .active-nav {
-    background-color: #cb4390;
-    color: #fff;
-}
-
-.navigacija .sidebar ul .active-nav a {
-    color: #fff!important;
-}
-
-.navigacija .sidebar ul li:hover {
-    background-color: #cb4390;
+    transition: .5s;
+    z-index: 2;
 }
 
 .navigacija .sidebar ul li:hover a {
     color: #fff;
     text-decoration: none;
+}
+
+.navigacija .sidebar ul .active-nav {
+    background-color: #cb4390;
+}
+
+.navigacija .sidebar ul .active-nav a {
+    color: #fff!important;
 }
 
 .navigacija .sidebar .social_media {
@@ -100,18 +117,29 @@
     transition: .5s background-color;
 }
 
-.navigacija .sidebar .social_media a i{
+.navigacija .sidebar .social_media a i {
     margin-top: 12px;
 }
 
-.navigacija .sidebar .social_media a:hover{
-    color:white;
+.navigacija .sidebar .social_media a:hover {
+    color: white;
 }
 
-.navigacija .sidebar .social_media .face:hover {background-color: #3b5998;}
-.navigacija .sidebar .social_media .insta:hover {background-color: #D44638;}
-.navigacija .sidebar .social_media .email:hover {background-color: #CC7722;}
-.navigacija .sidebar .social_media .phone:hover {background-color: #006400;}
+.navigacija .sidebar .social_media .face:hover {
+    background-color: #3b5998;
+}
+
+.navigacija .sidebar .social_media .insta:hover {
+    background-color: #D44638;
+}
+
+.navigacija .sidebar .social_media .email:hover {
+    background-color: #CC7722;
+}
+
+.navigacija .sidebar .social_media .phone:hover {
+    background-color: #006400;
+}
 
 @media (max-height: 800px) {
     .social_media {
@@ -150,11 +178,13 @@
 
 .naslov {
     position: absolute;
-    margin-top: 10%;
-    left: 40%;
-    transform: translateX(-50%);
+    padding-top:10%;
+    padding-bottom: 10%;
     text-align: center;
     z-index: 2;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    
 }
 
 .proba h1 {
@@ -162,10 +192,27 @@
     overflow: hidden;
 }
 
-.proba p{
+.proba p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    margin:0 15%;
+    margin: 0 15%;
+}
+
+.proba .dugme{
+    margin-top: 5%;
+    background:white;
+    color:#cb4390;
+    font-size: 30px;
+    font-style: italic;
+    border-radius: 25px;
+    padding-left: 105px;
+    padding-right: 105px;
+    transition: .5s;
+}
+
+.proba .dugme:hover{
+    background:#cb4390;
+    color:#fff;
 }
 
 .proba2 {
