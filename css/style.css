@@ -1,16 +1,26 @@
+@font-face {
+    font-family: 'Vladimir';
+    src: url('../fonts/VLADIMIR.TTF');
+    font-style: normal;
+    font-weight: 100;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Montserrat';
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
+h1, h2 {
+    font-family: 'Vladimir', serif;
+}
+
 p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans';
 }
 
 /* -- SCROLLBAR -- */
@@ -36,6 +46,7 @@ p{
 
 .navigacija {
     display: flex;
+    font-family: 'Montserrat';
 }
 
 .navigacija .sidebar {
@@ -43,11 +54,27 @@ p{
     height: 100%;
     padding: 30px 0px;
     position: fixed;
+    overflow: hidden;
+    box-shadow: 5px 0px 10px #00000026;
+    z-index: 10000;
 }
 
 .navigacija .sidebar .logo {
     text-align: center;
-    margin-bottom: 50px;
+    padding-bottom: 10%;
+    
+}
+
+.navigacija .sidebar .logo h1{
+    font-family: 'Vladimir';
+    font-size: 50px;
+    color: #cb4390;
+    margin-bottom: 0;
+}
+
+.navigacija .sidebar .logo p{
+    
+    color:#e5a2c7;
 }
 
 .navigacija .sidebar ul li {
@@ -223,16 +250,16 @@ p{
     height: 80vh;
     width: 100%;
     padding-left: 2%;
-    padding-top:5%;
+    padding-top: 5%;
     text-align: center;
 }
 
-.uvod h2{
+.uvod h2 {
     color: #cb4390;
-    font-size: 50px;
+    font-size: 4vw;
 }
 
-.uvod p{
+.uvod p {
     font-size: 20px;
 }
 
