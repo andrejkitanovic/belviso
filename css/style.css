@@ -286,15 +286,16 @@ p {
 
 .usluge {
     position: relative;
-    height: 100vh;
+    height: 100%;
     padding-top: 3%;
     background: #fff;
     text-align: center;
+    overflow: hidden;
 }
 
 .usluge .vrsta-usluge {
     position: relative;
-    height: 85%;
+    height: 90%;
     width: 100%;
     bottom: 0;
     margin-left: 0px;
@@ -315,9 +316,13 @@ p {
 
 .block-feature-1 h3 {
     color:#cb4390;
-    font-size: 25px;
+    font-size: 20px;
     overflow: hidden;
 }
+
+/* .block-feature-1 p{
+    font-size: 16px;
+} */
 
 .block-feature-1 .icon {
     width: 80px;
