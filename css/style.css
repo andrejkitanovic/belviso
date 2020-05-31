@@ -75,8 +75,6 @@ p{
 
 .navigacija .sidebar .logo {
     text-align: center;
-    padding-bottom: 10%;
-    
 }
 
 .navigacija .sidebar .logo h1{
@@ -87,8 +85,8 @@ p{
 }
 
 .navigacija .sidebar .logo p{
-    
     color:#e5a2c7;
+    margin-bottom: 10%;
 }
 
 .navigacija .sidebar ul li {
