@@ -204,8 +204,8 @@
     font-size: 30px;
     font-style: italic;
     border-radius: 25px;
-    padding-left: 105px;
-    padding-right: 105px;
+    padding-left: 6%;
+    padding-right: 6%;
     transition: .5s;
 }
 
@@ -219,7 +219,7 @@
     width: 100%;
 }
 
-@media (max-width: 1500px) {
+/* @media (max-width: 1500px) {
     .navigacija {
         display: none !important;
     }
@@ -227,4 +227,4 @@
     .telo{
         margin-left:0px;
     }
-}
+} */
