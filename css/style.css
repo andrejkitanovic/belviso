@@ -151,7 +151,7 @@ p {
     color: #fff!important;
 }
 
-.navigacija .sidebar .social_media {
+.navigacija .sidebar .social_media , .socijalne-mreze .social_media {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -159,7 +159,8 @@ p {
     display: flex;
 }
 
-.navigacija .sidebar .social_media a {
+
+.navigacija .sidebar .social_media a , .socijalne-mreze .social_media a{
     font-size: 25px;
     display: block;
     width: 50px;
@@ -173,32 +174,28 @@ p {
     transition: .5s background-color;
 }
 
-.navigacija .sidebar .social_media a i {
+.navigacija .sidebar .social_media a i , .socijalne-mreze .social_media a i{
     margin-top: 12px;
 }
 
-.navigacija .sidebar .social_media a:hover {
-    color: white;
-}
-
-.navigacija .sidebar .social_media .face:hover {
+.navigacija .sidebar .social_media .face:hover , .socijalne-mreze .social_media .face:hover {
     background-color: #3b5998;
 }
 
-.navigacija .sidebar .social_media .insta:hover {
+.navigacija .sidebar .social_media .insta:hover , .socijalne-mreze .social_media .insta:hover{
     background-color: #D44638;
 }
 
-.navigacija .sidebar .social_media .email:hover {
+.navigacija .sidebar .social_media .email:hover , .socijalne-mreze .social_media .email:hover{
     background-color: #CC7722;
 }
 
-.navigacija .sidebar .social_media .phone:hover {
+.navigacija .sidebar .social_media .phone:hover , .socijalne-mreze .social_media .phone:hover{
     background-color: #006400;
 }
 
 @media (max-height: 800px) {
-    .social_media {
+    .navigacija .sidebar .social_media {
         display: none !important;
     }
     .uvod {
@@ -206,6 +203,10 @@ p {
     }
     .zakazite {
         height: 240px !important;
+    }
+
+    .socijalne-mreze{
+        display:block !important;
     }
 }
 
@@ -287,7 +288,7 @@ p {
     overflow: hidden;
 }
 
-.uvod h2, .usluge h2 , .akcije h2 {
+.uvod h2, .usluge h2 , .akcije h2 , .socijalne-mreze h2 {
     color: #cb4390;
     font-size: 4vw;
     overflow: hidden;
@@ -377,7 +378,7 @@ p {
     overflow: hidden;
 }
 
-.zakazite .btn::before {
+.zakazite .btn::after {
     content: 'Odvedi me na stranicu →';
     padding-top: 1.2%;
     color: #e5a2c7;
@@ -391,7 +392,7 @@ p {
     transition: .5s;
 }
 
-.zakazite .btn:hover::before {
+.zakazite .btn:hover::after {
     transform: translateY(0);
 }
 
@@ -430,6 +431,7 @@ p {
     font-size:3vw;
     margin-top:10%;
     margin-left: 10%;
+    overflow: hidden;
 }
 
 .mapa .kontakt .kontakt-informacije p{
@@ -444,7 +446,37 @@ p {
 .mapa .kontakt .kontakt-informacije{
     margin-top: 10%;
     margin-left: 10%;
-    
+}
+
+/*-- SOCIJALNE MREZE --*/
+
+.socijalne-mreze{
+    display:none;
+    text-align: center;
+    position: relative;
+    height: 30vh;
+    background: #fff;
+}
+
+.socijalne-mreze h2{
+    padding-top: 1%;
+}
+
+.socijalne-mreze p{
+    color:#e5a2c7;
+    font-size: 20px;
+}
+/*-- PODNOZJE --*/
+
+.podnozje{
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.podnozje p{
+    text-align: center;
+    margin-top: 12px;
 }
 
 /* @media (max-width: 1500px) {
