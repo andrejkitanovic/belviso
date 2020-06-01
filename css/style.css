@@ -213,7 +213,7 @@ p {
     width: 100%;
     background: url('../img/naslovna.jpg') center center no-repeat;
     background-size: cover;
-    float: right;
+
 }
 
 .zaglavlje:after {
@@ -320,10 +320,6 @@ p {
     overflow: hidden;
 }
 
-/* .block-feature-1 p{
-    font-size: 16px;
-} */
-
 .block-feature-1 .icon {
     width: 80px;
     height: 80px;
@@ -338,17 +334,6 @@ p {
     transform: translateY(-50%);
     text-align: center;
     background: #e5a2c7;
-}
-
-.block-feature-1 .icon>span {
-    font-size: 40px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 
 

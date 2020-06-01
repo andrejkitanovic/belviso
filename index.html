@@ -18,6 +18,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/aos.css">
+    
 
     <!-- Importovati ikonice -->
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
@@ -51,10 +52,12 @@
         </div>
     </div>
 
+    
+
     <div class="telo">
         <div class="zaglavlje">
             <div class="naslov" data-tilt data-tilt-max="5" data-tilt-scale="1.2">
-                <h1>Belviso</h1>
+                <h1 >Belviso</h1>
                 <p>Belviso je novootvoreni ekskluzivni centar lepote na atraktivnoj lokaciji u Nišu koji donosi novi
                     koncept SPA uživanja i nege.</p>
                 <a href="#pocetak"><button type="button" class="btn dugme">Početak</button></a>
@@ -70,9 +73,9 @@
         <div class="usluge">
             <h2>Usluge</h2>
             <div class="row vrsta-usluge">
-                <div class="col-lg-3 col-md-6 mb-5 aos-init aos-animate" data-aos="fade-up">
-                    <div class="block-feature-1">
-                        <span class="icon">
+                <div class="col-xl-3 col-lg-4 mb-5 aos-init aos-animate">
+                    <div class="block-feature-1" data-aos="fade-right">
+                        <span class="icon" >
                             <span class="flaticon-dental"></span>
                         </span>
                         <h3 class="text-black">Tretmani tela</h3>
@@ -83,9 +86,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                    <div class="block-feature-1">
-                        <span class="icon">
+                <div class="col-xl-3 col-lg-4 mb-5 aos-init aos-animate"> 
+                    <div class="block-feature-1" data-aos="fade-right" data-aos-delay="100">
+                        <span class="icon" >
                             <span class="flaticon-filled-tooth"></span>
                         </span>
                         <h3 class="text-black">Aparturni tretmani tela</h3>
@@ -95,8 +98,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                    <div class="block-feature-1">
+                <div class="col-xl-3 col-lg-4 mb-5 aos-init aos-animate">
+                    <div class="block-feature-1" data-aos="fade-right" data-aos-delay="200">
                         <span class="icon">
                             <span class="flaticon-tooth"></span>
                         </span>
@@ -107,8 +110,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                    <div class="block-feature-1">
+                <div class="col-xl-3 col-lg-4 mb-5 aos-init aos-animate">
+                    <div class="block-feature-1" data-aos="fade-right" data-aos-delay="300">
                         <span class="icon">
                             <span class="flaticon-dental"></span>
                         </span>
@@ -117,8 +120,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-5 aos-init aos-animate" data-aos="fade-up">
-                    <div class="block-feature-1">
+                <div class="col-xl-3 col-lg-4 mb-5 aos-init aos-animate">
+                    <div class="block-feature-1" data-aos="fade-right">
                         <span class="icon">
                             <span class="flaticon-shiny-tooth"></span>
                         </span>
@@ -127,8 +130,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                    <div class="block-feature-1">
+                <div class="col-xl-3 col-lg-4 mb-5 aos-init aos-animate">
+                    <div class="block-feature-1" data-aos="fade-right" data-aos-delay="100">
                         <span class="icon">
                             <span class="flaticon-examinating-tooth"></span>
                         </span>
@@ -137,8 +140,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                    <div class="block-feature-1">
+                <div class="col-xl-3 col-lg-4 mb-5 aos-init aos-animate">
+                    <div class="block-feature-1" data-aos="fade-right" data-aos-delay="200">
                         <span class="icon">
                             <span class="flaticon-examinating-tooth"></span>
                         </span>
@@ -147,8 +150,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                    <div class="block-feature-1">
+                <div class="col-xl-3 col-lg-4 mb-5 aos-init aos-animate">
+                    <div class="block-feature-1" data-aos="fade-right" data-aos-delay="300">
                         <span class="icon">
                             <span class="flaticon-examinating-tooth"></span>
                         </span>
@@ -159,20 +162,21 @@
             </div>
         </div>
 
+        
+
         <div class="zakazite">
             <h2>Zakažite termin</h2>
             <p></p>
-            <a href="zakazivanje.html"><button type="button" class="btn">Zakazivanje</button></a>
+            <a href="zakazivanje.html"><button type="button" class="btn" data-aos="flip-up">Zakazivanje</button></a>
         </div>
 
     </div>
 
     <script src="js/aos.js"></script>
     <script src="js/vanilla-tilt.min.js"></script>
-    <script src="">
-        AOS.init({
-            duration:1200,
-        })
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <script>
+      AOS.init();
     </script>
 </body>
 
