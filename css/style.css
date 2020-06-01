@@ -423,8 +423,10 @@ p {
 }
 
 .mapa .kontakt{
+    position: relative;
     color:#fff;
     background: #e5a2c7;
+    z-index: 0;
 }
 
 .mapa .kontakt h2 {
@@ -435,6 +437,7 @@ p {
 }
 
 .mapa .kontakt .kontakt-informacije p{
+    z-index: 100;
     font-size: 17px;
 }
 
@@ -444,8 +447,21 @@ p {
 }
 
 .mapa .kontakt .kontakt-informacije{
+    z-index: 1000;
     margin-top: 10%;
     margin-left: 10%;
+}
+
+.mapa .kontakt .test{
+    font-family: 'Vladimir';
+    position: absolute;
+    font-size: 300px;
+    opacity: 0.2;
+    top:40%;
+    left:50%;
+    transform: translateX(-50%);
+    z-index:-1;
+    text-
 }
 
 /*-- SOCIJALNE MREZE --*/
