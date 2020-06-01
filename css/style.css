@@ -422,7 +422,29 @@ p {
 }
 
 .mapa .kontakt{
+    color:#fff;
     background: #e5a2c7;
+}
+
+.mapa .kontakt h2 {
+    font-size:3vw;
+    margin-top:10%;
+    margin-left: 10%;
+}
+
+.mapa .kontakt .kontakt-informacije p{
+    font-size: 17px;
+}
+
+.mapa .kontakt .kontakt-informacije a{
+    font-weight: bold;
+    color:#cb4390;
+}
+
+.mapa .kontakt .kontakt-informacije{
+    margin-top: 10%;
+    margin-left: 10%;
+    
 }
 
 /* @media (max-width: 1500px) {
