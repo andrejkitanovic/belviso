@@ -12,10 +12,11 @@
     font-weight: 400;
 }
 
-@font-face{
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Bold.ttf');
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.ttf');
     font-style: normal;
+    font-display: swap;
     font-weight: 700;
 }
 
@@ -35,6 +36,7 @@ h1, h2 {
 
 p {
     font-family: 'Open Sans';
+    font-weight: bold;
 }
 
 /* -- SCROLLBAR -- */
@@ -73,7 +75,7 @@ p {
 
 .navigacija {
     display: flex;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans';
 }
 
 .navigacija .sidebar {
@@ -98,12 +100,14 @@ p {
 }
 
 .navigacija .sidebar .logo p {
+    font-weight: 400;
     color: #e5a2c7;
     margin-bottom: 10%;
     font-style: italic;
 }
 
 .navigacija .sidebar ul li {
+    font-weight: 700;
     position: relative;
     padding: 5%;
     transition: .5s;
@@ -220,10 +224,13 @@ p {
     color: #777;
 }
 
+.telo p{
+    font-weight: 400;
+}
+
 /* -- NASLOV -- */
 
 .zaglavlje {
-    position: relative;
     color: #fff;
     height: 100vh;
     width: 100%;
@@ -457,11 +464,10 @@ p {
     position: absolute;
     font-size: 300px;
     opacity: 0.2;
-    top:40%;
+    bottom:-20%;
     left:50%;
     transform: translateX(-50%);
     z-index:-1;
-    text-
 }
 
 /*-- SOCIJALNE MREZE --*/
