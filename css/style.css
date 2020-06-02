@@ -570,7 +570,7 @@ p {
     font-size: 25px;
 }
 
-.posao .poslovi a{
+.posao .poslovi a , .posalji-cv a{
     color:#cb4390;
     font-weight:bold;
 }
@@ -601,33 +601,8 @@ p {
     text-align: center;
 }
 
-.posalji-cv .btn {
-    position: relative;
-    margin-top: .5%;
-    font-size: 25px;
-    color: #cb4390;
-    border: 4px solid #cb4390;
-    border-radius: 50px;
-    padding: 10px 20%;
-    overflow: hidden;
-}
-
-.posalji-cv .btn::after {
-    content: 'Email adresa →';
-    padding-top: 1.2%;
-    color: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #cb4390;
-    transform: translateY(100%);
-    transition: .5s;
-}
-
-.posalji-cv .btn:hover::after {
-    transform: translateY(0);
+.posalji-cv p{
+    font-size: 30px;
 }
 
 /* @media (max-width: 1500px) {
