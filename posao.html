@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belviso - Salon Lepote - Niš Srbija</title>
-    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Belviso - Salon Lepote - Niš Srbija</title>
+        <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/aos.css">
+    
+    
+        <!-- Importovati ikonice -->
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    </head>
 
 <body>
     <div class="navigacija">
@@ -49,10 +49,48 @@
 
     <div class="telo">
 
+        <div class="mapa">
+            <div class="kontakt">
+                <span class="test">Belviso</span>
+                <h2>Kontaktirajte nas</h2>
+                <div class="informacije">
+                    <p data-aos="fade-right">Adresa: Karadžićeva 2/1, Niš, Srbija</p>
+                    <p data-aos="fade-right" data-aos-delay="50">Telefon: <a href="tel:+381-18-202-002">018 202 002</a></p>
+                    <p data-aos="fade-right" data-aos-delay="100">Mobilni: <a href="tel:+381-63-265-266">063 265 266</a></p>
+                    <p data-aos="fade-right" data-aos-delay="150">Email: <a href="mailto:info@belviso.rs">info@belviso.rs</a></p>
+                    <p data-aos="fade-right" data-aos-delay="200">Website: <a href="http://www.belviso.rs/">www.belviso.rs</a></p>
+                </div>
+            </div>
+            <div class="prikaz-mape"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11611.032557592753!2d21.894650595619265!3d43.319322227654354!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8391eb93cf73ea5!2sBelviso!5e0!3m2!1sen!2srs!4v1591014733255!5m2!1sen!2srs"
+                    width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe></div>
+        </div>
+
+        <div class="socijalne-mreze">
+            <h2>Zapratite nas</h2>
+            <p>Budite u toku</p>
+            <div class="social_media">
+                <a target="_blank" href="https://www.facebook.com/belvisonis/" class="face"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a target="_blank" href="https://www.instagram.com/belviso_beauty_center/" class="insta"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="mailto: info@belviso.rs" class="email"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+381-63-265-266" class="phone"><i class="fas fa-phone"></i></a>
+            </div>
+        </div>
+
+        <div class="podnozje">
+            <p>© Copyright 2020 Belviso Kozmeticki Salon</p>
+        </div>
     </div>
 
 
+    <script src="js/aos.js"></script>
     <script src="js/vanilla-tilt.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
