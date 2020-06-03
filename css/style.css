@@ -622,6 +622,14 @@ p {
     margin:3% 0;
 }
 
+.zakazivanje{
+    text-align: center;
+}
+
+.zakazivanje h2{
+    margin-top:2%;
+}
+
 
 
 /* @media (max-width: 1500px) {
