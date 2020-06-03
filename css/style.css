@@ -639,6 +639,11 @@ p {
     margin-bottom: 5%;
 }
 
+.zakazivanje-informacije form .form-group{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .zakazivanje-informacije form{
     margin:2% 5%;
 }
@@ -663,15 +668,20 @@ p {
     color:#e5a2c7;
 }
 
-.zakazivanje-informacije .checks{
+.zakazivanje-informacije form .checks{
     margin-top:5%;
     margin-bottom: 5%;
     text-align: left;
 }
 
-.zakazivanje-informacije .checks label:hover{
+.zakazivanje-informacije form .checks label:hover{
     color:#e5a2c7;
     cursor: pointer;
+}
+
+.zakazivanje-informacije form input:focus , .zakazivanje-informacije form textarea:focus{
+    border:2px solid #e5a2c7;
+    box-shadow: none!important;
 }
 
 
