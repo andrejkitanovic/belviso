@@ -630,6 +630,49 @@ p {
     margin-top:2%;
 }
 
+.zakazivanje-informacije{
+    text-align: center;
+    height: 100%;
+    border:3px solid #e5a2c7;
+    border-radius: 20px;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.zakazivanje-informacije form{
+    margin:2% 5%;
+}
+
+.zakazivanje-informacije form input, .zakazivanje-informacije form textarea{
+    border:1.5px solid #c395af6e;
+}
+
+.zakazivanje-informacije form button{
+    position: relative;
+    border:2px solid #e5a2c7;
+    font-size: 20px;
+    background: #e5a2c7;
+    color:#fff;
+    padding:5px 30px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.zakazivanje-informacije form button:hover{
+    background:#fff;
+    color:#e5a2c7;
+}
+
+.zakazivanje-informacije .checks{
+    margin-top:5%;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.zakazivanje-informacije .checks label:hover{
+    color:#e5a2c7;
+    cursor: pointer;
+}
 
 
 /* @media (max-width: 1500px) {
