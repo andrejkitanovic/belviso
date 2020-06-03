@@ -56,6 +56,14 @@ p {
     font-weight: bold;
 }
 
+.table tbody tr:hover > td, .table tbody tr:hover > th{
+    background:#c395af6e !important;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #e5a2c73b;
+ }
+
 /* -- SCROLLBAR -- */
 
 ::-webkit-scrollbar {
@@ -576,18 +584,15 @@ p {
 }
 
 .posao .poslovi .kozmetoterapeut{
-    position: relative;
     background:#fff;
     color:#e5a2c7;
 }
 
 .posao .poslovi .kozmetoterapeut h2{
     color: #e5a2c7;
-    z-index:1000;
 }
 
 .posao .poslovi .fizioterapeut{
-    position: relative;
     background:#e5a2c7;
     color: #fff;
 }
@@ -605,6 +610,19 @@ p {
     margin-top: 2%;
     font-size: 25px;
 }
+
+
+.cenovnik h2{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.cenovnik h3{
+    color:#cb4390;
+    margin:3% 0;
+}
+
+
 
 /* @media (max-width: 1500px) {
     .navigacija {
