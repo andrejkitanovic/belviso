@@ -411,7 +411,7 @@ p {
 
 /*-- AKCIJE --*/
 
-.akcije {
+.trenutne-akcije {
     position: relative;
     height: 100%;
     padding-top: 3%;
@@ -649,7 +649,7 @@ p {
 }
 
 .zakazivanje-informacije form input, .zakazivanje-informacije form textarea{
-    border:1.5px solid #c395af6e;
+    border:2px solid #c395af6e;
 }
 
 .zakazivanje-informacije form button{
@@ -682,6 +682,24 @@ p {
 .zakazivanje-informacije form input:focus , .zakazivanje-informacije form textarea:focus{
     border:2px solid #e5a2c7;
     box-shadow: none!important;
+}
+
+.akcije{
+    text-align: center;
+    height: 60vh;
+}
+
+.akcije h2{
+    padding-top: 2%;
+}
+
+.galerija-salon{
+    text-align: center;
+    height: 60vh;
+}
+
+.galerija-salon h2{
+    padding-top: 2%;
 }
 
 
