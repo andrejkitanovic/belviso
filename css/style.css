@@ -64,6 +64,114 @@ p {
     background-color: #e5a2c73b;
  }
 
+ #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #e5a2c7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+ /* ----  login ----  */
+
+ .login-div {
+    position: relative;
+    width: 430px;
+    margin-top: 10%;
+    left: 50%;
+    padding: 30px 35px 55px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    transform: translateX(-50%);
+}
+
+.login-div .logo{
+    text-align: center;
+}
+
+.login-div .logo p{
+    font-size: 20px;
+    color:#e5a2c7;
+}
+
+.login-div .fields {
+    width: 100%;
+    padding: 15px 5px 5px 5px;
+}
+
+.login-div .fields input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #777;
+    padding: 20px 50px 20px 5px;
+    width: 100%;
+}
+
+.login-div .username,
+.login-div .password,
+.login-div .email {
+    color: #e5a2c7;
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.login-div input:-webkit-autofill,
+.login-div input:-webkit-autofill:hover,
+.login-div input:-webkit-autofill:focus,
+.login-div input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.login-div .signin-button {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    text-align: center;
+    background: #cb4390;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    transition: 0.5s;
+}
+
+.login-div .signin-button:hover {
+    background: #e5a2c7;
+}
+
+.login-div .signin-button:active {
+    background: #cb4390;
+}
+
+.login-div .link {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.login-div .link a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+}
+
+.login-div .alert {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 30px;
+    top: 20px;
+    margin: 0;
+}
+
 /* -- SCROLLBAR -- */
 
 ::-webkit-scrollbar {
