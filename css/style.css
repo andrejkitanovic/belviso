@@ -56,6 +56,10 @@ p {
     font-weight: bold;
 }
 
+.table{
+    background:#fff;
+}
+
 .table tbody tr:hover > td, .table tbody tr:hover > th{
     background:#c395af6e !important;
 }
@@ -745,7 +749,7 @@ p {
     border-radius: 20px;
     margin-top:5%;
     margin-bottom: 5%;
-    box-shadow: 0px 0px 20px 0px #e5a2c7;
+    box-shadow: 0px 0px 20px 15px #e5a2c73b;
 }
 
 .zakazivanje-informacije form .form-group{
