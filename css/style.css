@@ -429,7 +429,7 @@ p {
 .usluge {
     position: relative;
     height: 100%;
-    padding-top: 3%;
+    padding-top: 2%;
     background: #fff;
     text-align: center;
     overflow: hidden;
@@ -828,6 +828,17 @@ p {
     transform: scale(1.1);
 }
 
+.usluge-stranica{
+    background: transparent;
+}
+
+.usluge-stranica .vrsta-usluge .block-feature-1{
+    background:#fff;
+}
+
+.usluge .vrsta-usluge .block-feature-1 .icon{
+    border:5px solid #faf6f5;
+}
 
 
 /* @media (max-width: 1500px) {
