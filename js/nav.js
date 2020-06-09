@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     //MOBILE ONE AND MOBILE THREE
     var menu = "close";
-    $("nav .menu-toggle").click(function () {
+    $("nav .menu-toggle").on('click touchstart',function () {
 
         if (menu === "close") {
             $(this).parent().next(".mobile-nav").css("transform", "translate(0, 0)");
@@ -12,8 +12,6 @@ $(document).ready(function () {
             menu = "close";
         }
     });
-
-
 
 
 });
