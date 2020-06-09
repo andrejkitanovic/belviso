@@ -637,8 +637,9 @@ p {
     display: none;
     text-align: center;
     position: relative;
-    height: 30vh;
+    height: 230px;
     background: #fff;
+    overflow: hidden;
 }
 
 .socijalne-mreze h2 {
@@ -648,6 +649,12 @@ p {
 .socijalne-mreze p {
     color: #e5a2c7;
     font-size: 20px;
+}
+
+.socijalne-mreze .social_media{
+    position:relative;
+    justify-content: center;
+    align-items: center;
 }
 
 /*-- PODNOZJE --*/
@@ -888,6 +895,8 @@ p {
     border: 5px solid #faf6f5;
 }
 
+
+
 @media (max-width: 1500px) {
     .navigacija {
         display: none !important;
@@ -903,6 +912,7 @@ p {
     }
 
     .mapa{
+        height: 100%;
         flex-direction: column;
     }
 
@@ -911,10 +921,9 @@ p {
         width: 100%;
     }
 
-    .mapa .kontakt {
-        padding-top:20px;
-        height: 350px!important;
-        padding-bottom: 20px;
+    .mapa .kontakt{
+        height: 280px!important;
+        padding-top:40px;
     }
 
     .mapa .kontakt .informacije{
@@ -926,14 +935,5 @@ p {
     .kontakt h2{
         display: none;
     }
-
-    .socijalne-mreze{
-        height: 100%;
-    }
-
-    .socijalne-mreze .social_media{
-        position:relative;
-        justify-content: center;
-        align-items: center;
-    }
+    
 }
