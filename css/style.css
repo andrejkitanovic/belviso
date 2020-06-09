@@ -898,6 +898,10 @@ p {
 
 
 @media (max-width: 1500px) {
+    .load-container {
+        display: none;
+    }
+
     .navigacija {
         display: none !important;
     }
@@ -907,8 +911,8 @@ p {
         width: 100%;
     }
 
-    .load-container {
-        display: none;
+    .zaglavlje .dugme{
+        display:none;
     }
 
     .mapa{
@@ -932,8 +936,25 @@ p {
         text-align: center;
     }
 
-    .kontakt h2{
+    .mapa .kontakt h2{
         display: none;
     }
     
+    .mapa .kontakt .test {
+        font-size: 210px;
+    }
+
+    .zakazite{
+        height: 100% !important;
+        padding-bottom: 20px;
+    }
+
+    .zakazite h2{
+        display:none;
+    }
+
+    .socijalne-mreze h2,.trenutne-akcije h2,{
+        font-size: 70px;
+
+    }
 }
