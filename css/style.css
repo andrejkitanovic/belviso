@@ -926,4 +926,14 @@ p {
     .kontakt h2{
         display: none;
     }
+
+    .socijalne-mreze{
+        height: 100%;
+    }
+
+    .socijalne-mreze .social_media{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+    }
 }
