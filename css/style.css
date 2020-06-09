@@ -897,4 +897,33 @@ p {
         margin-left: 0;
         width: 100%;
     }
+
+    .load-container {
+        display: none;
+    }
+
+    .mapa{
+        flex-direction: column;
+    }
+
+    .mapa div{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .mapa .kontakt {
+        padding-top:20px;
+        height: 350px!important;
+        padding-bottom: 20px;
+    }
+
+    .mapa .kontakt .informacije{
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .kontakt h2{
+        display: none;
+    }
 }
