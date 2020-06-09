@@ -888,12 +888,13 @@ p {
     border: 5px solid #faf6f5;
 }
 
-/* @media (max-width: 1500px) {
+@media (max-width: 1500px) {
     .navigacija {
         display: none !important;
     }
 
     .telo{
-        margin-left:0px;
+        margin-left: 0;
+        width: 100%;
     }
-} */
+}
