@@ -38,7 +38,7 @@ h1, h2 {
     font-family: 'Vladimir', serif;
 }
 
-h1, h2 , h3 , h4 , h5{
+h1, h2, h3, h4, h5 {
     overflow: hidden;
 }
 
@@ -46,7 +46,7 @@ h1 {
     font-size: 150px;
 }
 
-h2{
+h2 {
     color: #cb4390;
     font-size: 76px;
 }
@@ -56,19 +56,19 @@ p {
     font-weight: bold;
 }
 
-.table{
-    background:#fff;
+.table {
+    background: #fff;
 }
 
-.table tbody tr:hover > td, .table tbody tr:hover > th{
-    background:#c395af6e !important;
+.table tbody tr:hover>td, .table tbody tr:hover>th {
+    background: #c395af6e !important;
 }
 
-.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+.table-striped>tbody>tr:nth-child(2n+1)>td, .table-striped>tbody>tr:nth-child(2n+1)>th {
     background-color: #e5a2c73b;
- }
+}
 
- #particles-js {
+#particles-js {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -78,9 +78,47 @@ p {
     background-position: 50% 50%;
 }
 
- /* ----  login ----  */
+.load-container {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    pointer-events: none;
+    animation:screen 2.5s 1 forwards ease;
+    animation-delay: .3s;
+}
 
- .login-div {
+.loading-screen {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: #cb4390;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.loading-screen h1 {
+    position: absolute;
+    font-size:400px;
+    color: #fff;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0px 20px 20px #ffffff94;
+}
+
+@keyframes screen{
+    from{top:0}
+    to{top:-100vh}
+}
+
+/* ----  login ----  */
+
+.login-div {
     position: relative;
     width: 430px;
     margin-top: 10%;
@@ -91,13 +129,13 @@ p {
     transform: translateX(-50%);
 }
 
-.login-div .logo{
+.login-div .logo {
     text-align: center;
 }
 
-.login-div .logo p{
+.login-div .logo p {
     font-size: 20px;
-    color:#e5a2c7;
+    color: #e5a2c7;
 }
 
 .login-div .fields {
@@ -115,9 +153,7 @@ p {
     width: 100%;
 }
 
-.login-div .username,
-.login-div .password,
-.login-div .email {
+.login-div .username, .login-div .password, .login-div .email {
     color: #e5a2c7;
     padding-left: 25px;
     position: relative;
@@ -126,10 +162,7 @@ p {
     box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
 }
 
-.login-div input:-webkit-autofill,
-.login-div input:-webkit-autofill:hover,
-.login-div input:-webkit-autofill:focus,
-.login-div input:-webkit-autofill:active {
+.login-div input:-webkit-autofill, .login-div input:-webkit-autofill:hover, .login-div input:-webkit-autofill:focus, .login-div input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -351,6 +384,7 @@ p {
 /* -- TELO SAJTA -- */
 
 .telo {
+    position: relative;
     margin-left: 20%;
     width: 80%;
     height: 100%;
@@ -451,9 +485,19 @@ p {
 }
 
 .usluge .vrsta-usluge .block-feature-1 {
+    position: relative;
+    color: #777;
     background: #faf6f5;
     padding: 50px 50px 50px 50px;
-    position: relative;
+    transition: .5s;
+}
+
+.usluge .vrsta-usluge a:hover {
+    text-decoration: none;
+}
+
+.usluge .vrsta-usluge a:hover>.block-feature-1 {
+    background: #e5a2c73b;
 }
 
 .usluge .vrsta-usluge .block-feature-1 h3 {
@@ -476,6 +520,7 @@ p {
     transform: translateY(-50%);
     text-align: center;
     background: #e5a2c7;
+    z-index: 20;
 }
 
 /* -- ZAKAZITE -- */
@@ -488,8 +533,8 @@ p {
     text-align: center;
 }
 
-.zakazite h2{
-    color:#fff;
+.zakazite h2 {
+    color: #fff;
 }
 
 .zakazite .btn {
@@ -553,7 +598,7 @@ p {
 }
 
 .mapa .kontakt h2 {
-    color:#fff;
+    color: #fff;
     margin-top: 10%;
     margin-left: 10%;
 }
@@ -625,226 +670,223 @@ p {
     height: 100%;
 }
 
- .kontakt-informacije h2 {
+.kontakt-informacije h2 {
     padding-top: 2%;
-} 
+}
 
-
-.kontakt-informacije .mreze{
+.kontakt-informacije .mreze {
     text-align: center;
     margin-top: 8%;
     margin-bottom: 8%;
 }
 
-.kontakt-informacije .mreze h3{
-    color:#cb4390;
+.kontakt-informacije .mreze h3 {
+    color: #cb4390;
 }
 
-.kontakt-informacije .mreze p{
+.kontakt-informacije .mreze p {
     padding-top: 2%;
 }
 
-.kontakt-informacije .mreze p a{
-    color:#cb4390;
+.kontakt-informacije .mreze p a {
+    color: #cb4390;
 }
 
-.kontakt-mapa{
-    height:50vh;
+.kontakt-mapa {
+    height: 50vh;
     overflow: hidden;
 }
 
 /*-- POSAO --*/
 
-.posao{
+.posao {
     height: 100%;
     text-align: center;
 }
 
-.posao h2{
+.posao h2 {
     padding-top: 2%;
 }
 
-.posao .poslovi{
+.posao .poslovi {
     margin-top: 5%;
     display: flex;
     margin-bottom: 5%;
 }
 
-.posao .poslovi div{
+.posao .poslovi div {
     height: 100%;
     width: 50%;
 }
 
-.posao .poslovi h3{
+.posao .poslovi h3 {
     font-style: italic;
     font-size: 30px;
     margin-top: 5%;
     margin-bottom: 20%;
 }
 
-.posao .poslovi h2{
-    margin-top:20%;
+.posao .poslovi h2 {
+    margin-top: 20%;
 }
 
-.posao .poslovi p{
+.posao .poslovi p {
     font-size: 25px;
 }
 
-.posao .poslovi a , .posalji-cv a{
-    color:#cb4390;
-    font-weight:bold;
+.posao .poslovi a, .posalji-cv a {
+    color: #cb4390;
+    font-weight: bold;
 }
 
-.posao .poslovi .kozmetoterapeut{
-    background:#fff;
-    color:#e5a2c7;
-}
-
-.posao .poslovi .kozmetoterapeut h2{
+.posao .poslovi .kozmetoterapeut {
+    background: #fff;
     color: #e5a2c7;
 }
 
-.posao .poslovi .fizioterapeut{
-    background:#e5a2c7;
+.posao .poslovi .kozmetoterapeut h2 {
+    color: #e5a2c7;
+}
+
+.posao .poslovi .fizioterapeut {
+    background: #e5a2c7;
     color: #fff;
 }
 
-.posao .poslovi .fizioterapeut h2{
+.posao .poslovi .fizioterapeut h2 {
     color: #fff;
 }
 
-.posalji-cv{
+.posalji-cv {
     height: 30vh;
     text-align: center;
 }
 
-.posalji-cv p{
+.posalji-cv p {
     margin-top: 2%;
     font-size: 25px;
 }
 
-
-.cenovnik h2{
+.cenovnik h2 {
     text-align: center;
     margin-top: 2%;
 }
 
-.cenovnik h3{
-    color:#cb4390;
-    margin:3% 0;
+.cenovnik h3 {
+    color: #cb4390;
+    margin: 3% 0;
 }
 
-.zakazivanje{
+.zakazivanje {
     text-align: center;
 }
 
-.zakazivanje h2{
-    margin-top:2%;
+.zakazivanje h2 {
+    margin-top: 2%;
 }
 
-.zakazivanje-informacije{
+.zakazivanje-informacije {
     text-align: center;
     height: 100%;
     background: #fff;
     border-radius: 20px;
-    margin-top:5%;
+    margin-top: 5%;
     margin-bottom: 5%;
     box-shadow: 0px 0px 20px 15px #e5a2c73b;
 }
 
-.zakazivanje-informacije form .form-group{
+.zakazivanje-informacije form .form-group {
     margin-left: auto;
     margin-right: auto;
 }
 
-.zakazivanje-informacije form{
-    margin:2% 5%;
+.zakazivanje-informacije form {
+    margin: 2% 5%;
 }
 
-.zakazivanje-informacije form input, .zakazivanje-informacije form textarea{
-    border:2px solid #c395af6e;
+.zakazivanje-informacije form input, .zakazivanje-informacije form textarea {
+    border: 2px solid #c395af6e;
 }
 
-.zakazivanje-informacije form button{
+.zakazivanje-informacije form button {
     position: relative;
-    border:2px solid #e5a2c7;
+    border: 2px solid #e5a2c7;
     font-size: 20px;
     background: #e5a2c7;
-    color:#fff;
-    padding:5px 30px;
+    color: #fff;
+    padding: 5px 30px;
     border-radius: 20px;
     transition: .5s;
 }
 
-.zakazivanje-informacije form button:hover{
-    background:#fff;
-    color:#e5a2c7;
+.zakazivanje-informacije form button:hover {
+    background: #fff;
+    color: #e5a2c7;
 }
 
-.zakazivanje-informacije form .checks{
-    margin-top:5%;
+.zakazivanje-informacije form .checks {
+    margin-top: 5%;
     margin-bottom: 5%;
     text-align: left;
 }
 
-.zakazivanje-informacije form .checks label:hover{
-    color:#e5a2c7;
+.zakazivanje-informacije form .checks label:hover {
+    color: #e5a2c7;
     cursor: pointer;
 }
 
-.zakazivanje-informacije form input:focus , .zakazivanje-informacije form textarea:focus{
-    border:2px solid #e5a2c7;
+.zakazivanje-informacije form input:focus, .zakazivanje-informacije form textarea:focus {
+    border: 2px solid #e5a2c7;
     box-shadow: none!important;
 }
 
-.akcije{
+.akcije {
     text-align: center;
     height: 60vh;
 }
 
-.akcije h2{
+.akcije h2 {
     padding-top: 2%;
 }
 
-.galerija-salon{
+.galerija-salon {
     text-align: center;
 }
 
-.galerija-salon h2{
+.galerija-salon h2 {
     padding-top: 2%;
 }
 
-.gallery{
+.gallery {
     text-align: center;
-    margin:10px 5%;
+    margin: 10px 5%;
     overflow: hidden;
 }
 
-.gallery img{
+.gallery img {
     position: relative;
     transition: .5s;
-    padding:15px;
+    padding: 15px;
     width: 300px;
     overflow: hidden;
 }
 
-.gallery img:hover{
+.gallery img:hover {
     filter: grayscale(100%);
     transform: scale(1.1);
 }
 
-.usluge-stranica{
+.usluge-stranica {
     background: transparent;
 }
 
-.usluge-stranica .vrsta-usluge .block-feature-1{
-    background:#fff;
+.usluge-stranica .vrsta-usluge .block-feature-1 {
+    background: #fff;
 }
 
-.usluge .vrsta-usluge .block-feature-1 .icon{
-    border:5px solid #faf6f5;
+.usluge .vrsta-usluge .block-feature-1 .icon {
+    border: 5px solid #faf6f5;
 }
-
 
 /* @media (max-width: 1500px) {
     .navigacija {
