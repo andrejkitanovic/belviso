@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    //MOBILE ONE AND MOBILE THREE
+    //MOBILE ONE
     var menu = "close";
     $("nav .menu-toggle").on('click touchstart',function () {
 
@@ -12,6 +12,8 @@ $(document).ready(function () {
             menu = "close";
         }
     });
+
+    $("nav .menu-toggle").on('touchstart',console.log("A"));
 
 
 });
