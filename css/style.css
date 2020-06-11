@@ -428,7 +428,7 @@ nav .header .menu-toggle {
 
 nav .mobile-nav {
     position: fixed;
-    z-index: 40;
+    z-index: 40000;
     background-color: #fff;
     left: 0;
     top: 55px;
