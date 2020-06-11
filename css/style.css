@@ -28,6 +28,7 @@
     text-decoration: none;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    cursor: pointer;
 }
 
 body {
