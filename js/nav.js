@@ -8,6 +8,7 @@ $(document).ready(function () {
             $(this).parent().next(".mobile-nav").css("transform", "translate(0, 0)");
             $(this).parent().next(".mobile-nav").css("-webkit-transform", "translate(0, 0)");
             menu = "open";
+            document.write("TEST");
         } else {
             $(this).parent().next(".mobile-nav").css("transform", "translate(-100%, 0)");
             $(this).parent().next(".mobile-nav").css("-webkit-transform", "translate(-100%, 0)");
