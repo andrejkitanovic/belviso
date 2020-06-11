@@ -439,7 +439,7 @@ nav .mobile-nav {
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     box-shadow: 5px 8px 10px #00000026; */
-    position: absolute;
+    position: fixed;
     left:0;
     top:0;
     height: 100%;
