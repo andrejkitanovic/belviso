@@ -420,10 +420,6 @@ nav .header .logo h2 {
     transform: translate(-50%, -50%);
 }
 
-nav .header .menu-toggle {
-    cursor: pointer;
-}
-
 /*--DODATO--*/
 
 nav .mobile-nav {
