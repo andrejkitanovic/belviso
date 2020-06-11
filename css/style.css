@@ -488,6 +488,7 @@ nav .mobile-nav .active-nav a {
     width: 100%;
     background: url('../images/naslovna.jpg') center center no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .zaglavlje:after {
@@ -507,6 +508,10 @@ nav .mobile-nav .active-nav a {
     z-index: 2;
     overflow: hidden;
     transform-style: preserve-3d;
+}
+
+.zaglavlje .naslov-mobilni {
+    display: none;
 }
 
 .zaglavlje p {
@@ -993,8 +998,29 @@ nav .mobile-nav .active-nav a {
         margin-left: 0;
         width: 100%;
     }
-    .zaglavlje .dugme {
+    .zaglavlje{
+        height: 95vh;
+    }
+    .zaglavlje .naslov {
         display: none;
+    }
+    .zaglavlje .naslov-mobilni {
+        position: absolute;
+        z-index: 20;
+        background: rgb(255,255,255,0.5);
+        margin: 10%;
+        height: 70%;
+        display: block;
+        overflow: hidden;
+    }
+    .zaglavlje .naslov-mobilni p{
+        text-align: center;
+        margin-top:15%;
+        font-size: calc(13px + 3.5vmin);
+        color:#cb4390;
+        font-weight: bold;
+        opacity: 0.7;
+        text-shadow: 3px 3px 12px white;
     }
     .mapa {
         height: 100%;
@@ -1033,4 +1059,3 @@ nav .mobile-nav .active-nav a {
         display: block !important;
     }
 }
-
