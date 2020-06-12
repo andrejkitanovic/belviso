@@ -424,6 +424,13 @@ nav .header .menu-toggle {
     cursor: pointer;
 }
 
+.open{
+    transform: translate(0,0)!important;
+    -webkit-transform: translate(0,0)!important;
+    -o-transform: translate(0,0)!important;
+    -moz-transform: translate(0,0)!important;
+}
+
 /*--DODATO--*/
 
 nav .mobile-nav {
@@ -1065,9 +1072,3 @@ nav .mobile-nav .active-nav a {
 
 
 
-.open{
-    transform: translate(0,0)!important;
-    -webkit-transform: translate(0,0)!important;
-    -o-transform: translate(0,0)!important;
-    -moz-transform: translate(0,0)!important;
-}
