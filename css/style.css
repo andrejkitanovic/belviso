@@ -350,7 +350,7 @@ p {
     transition: .5s background-color;
 }
 
-.navigacija .sidebar .social_media a i, .socijalne-mreze .social_media a i {
+.navigacija .sidebar .social_media a svg, .socijalne-mreze .social_media a svg{
     margin-top: 12px;
 }
 
