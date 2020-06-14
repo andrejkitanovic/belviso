@@ -52,7 +52,7 @@ h2 {
 }
 
 p {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
 
@@ -1081,6 +1081,26 @@ nav .mobile-nav .active-nav a {
     }
     .socijalne-mreze {
         display: block !important;
+    }
+    .zakazivanje-informacije{
+        width: 95%;
+    }
+    .posao .poslovi{
+        display:block!important;
+    }
+    .posao .poslovi div{
+        width: 100%;
+    }
+    .posalji-cv{
+        height: 100%;
+    }
+    .posalji-cv h2{
+        display: none;
+    }
+    .posalji-cv p{
+        font-size: calc(15px + 1.5vw);
+        margin-left: 5%;
+        margin-right: 5%;        
     }
 }
 
