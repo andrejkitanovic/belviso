@@ -1032,6 +1032,17 @@ nav .mobile-nav .active-nav a {
         opacity: 0.7;
         text-shadow: 3px 3px 12px white;
     }
+    .uvod{
+        padding-top:5vh;
+        padding-bottom: 5vh;
+        height: 100%;
+    }
+    .uvod h2{
+        font-size: calc(30px + 5vw);
+    }
+    .uvod P{
+        display: none;
+    }
     .mapa {
         height: 100%;
         flex-direction: column;
@@ -1062,7 +1073,10 @@ nav .mobile-nav .active-nav a {
     .zakazite h2 {
         display: none;
     }
-    .socijalne-mreze h2, .trenutne-akcije h2 {
+    .zakazite .btn::after{
+        display: none;
+    }
+    .naslov h2{
         font-size: 70px;
     }
     .socijalne-mreze {
