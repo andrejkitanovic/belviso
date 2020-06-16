@@ -775,7 +775,7 @@ nav .mobile-nav .active-nav a {
     height: 100%;
 }
 
-.kontakt-informacije h2 {
+.naslov {
     padding-top: 2%;
 }
 
@@ -807,10 +807,6 @@ nav .mobile-nav .active-nav a {
 .posao {
     height: 100%;
     text-align: center;
-}
-
-.posao h2 {
-    padding-top: 2%;
 }
 
 .posao .poslovi {
@@ -872,9 +868,8 @@ nav .mobile-nav .active-nav a {
     font-size: 25px;
 }
 
-.cenovnik h2 {
+.cenovnik h2{
     text-align: center;
-    margin-top: 2%;
 }
 
 .cenovnik h3 {
@@ -884,10 +879,6 @@ nav .mobile-nav .active-nav a {
 
 .zakazivanje {
     text-align: center;
-}
-
-.zakazivanje h2 {
-    margin-top: 2%;
 }
 
 .zakazivanje-informacije {
@@ -950,16 +941,8 @@ nav .mobile-nav .active-nav a {
     height: 60vh;
 }
 
-.akcije h2 {
-    padding-top: 2%;
-}
-
 .galerija-salon {
     text-align: center;
-}
-
-.galerija-salon h2 {
-    padding-top: 2%;
 }
 
 .gallery {
@@ -991,6 +974,11 @@ nav .mobile-nav .active-nav a {
 
 .usluge .vrsta-usluge .block-feature-1 .icon {
     border: 5px solid #faf6f5;
+}
+
+.nije-pronadjeno{
+    height: 35vh;
+    text-align: center;
 }
 
 @media (max-width: 1500px) {
