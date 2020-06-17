@@ -86,7 +86,7 @@
         <div id="particles-js"></div>
 
         <div class="wrap">
-            <form class="login-div" action="index.html">
+            <form class="login-div" method="POST" action="admin.php">
                 <div class="logo">
                     <h2>Belviso</h2>
                     <p>Admin Team</p>
@@ -94,12 +94,13 @@
 
                 <div class="fields">
                     <div class="username"><input name="username" type="username" class="user-input"
-                            placeholder="Korisnicko ime" /></div>
+                            placeholder="Korisnicko ime"/></div>
                     <div class="password"><input name="sifra" type="password" class="pass-input" placeholder="Sifra" />
                     </div>
                 </div>
                 <button class="signin-button" name="uloguj-se">Uloguj se</button>
 
+                <?php require_once 'php/login.php' ?>
             </form>
         </div>
     </div>
