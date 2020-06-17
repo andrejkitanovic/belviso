@@ -1117,6 +1117,7 @@ nav .mobile-nav .active-nav a {
 .vrsta-tretmana img{
     max-width: 100%;
     margin-bottom: 5%;
+    border-radius: 25px;
 }
 
 .vrsta-tretmana a{
@@ -1132,4 +1133,9 @@ nav .mobile-nav .active-nav a {
 .vrsta-tretmana ul li{
     list-style: disc!important;
     overflow-x: visible!important;
+}
+
+.vrsta-tretmana .trajanje {
+    color:#e5a2c7;
+    font-weight: bold;
 }
