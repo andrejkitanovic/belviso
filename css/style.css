@@ -23,10 +23,10 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     list-style: none;
-    text-decoration: none;
     overflow-x: hidden;
+    box-sizing: border-box;
+    text-decoration: none;
     scroll-behavior: smooth;
 }
 
@@ -1117,4 +1117,19 @@ nav .mobile-nav .active-nav a {
 .vrsta-tretmana img{
     max-width: 100%;
     margin-bottom: 5%;
+}
+
+.vrsta-tretmana a{
+    color:#cb4390;
+}
+
+.vrsta-tretmana ul {
+    margin-left: 25px;
+    list-style: disc!important;
+    overflow-x: visible!important;
+}
+
+.vrsta-tretmana ul li{
+    list-style: disc!important;
+    overflow-x: visible!important;
 }
