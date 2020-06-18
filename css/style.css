@@ -987,6 +987,7 @@ nav .mobile-nav .active-nav a {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    padding-bottom: 5%;
 }
 
 .vrsta-usluge img{
@@ -1033,6 +1034,10 @@ nav .mobile-nav .active-nav a {
 .vrsta-tretmana .trajanje {
     color:#e5a2c7;
     font-weight: bold;
+}
+
+.vrsta-tretmana .gallery img{
+    border-radius: 0;
 }
 
 @media (max-width: 1500px) {
