@@ -406,10 +406,31 @@ nav .header {
 }
 
 nav .header .line {
+    position: absolute;
     width: 30px;
-    height: 2px;
-    margin: 10px 0;
+    height: 4px;
+    margin: 9px 0;
     background-color: #cb4390;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+nav .header .line:nth-of-type(1){
+    top:10px;
+}
+
+nav .header .line:nth-of-type(2){
+    top:22px;
+}
+
+.open-nav .line:nth-of-type(1){
+    transform: rotate(45deg);
+    top: 15px!important;
+}
+
+.open-nav .line:nth-of-type(2){
+    transform: rotate(-45deg);
+    top: 15px!important;
 }
 
 nav .header .logo h2 {
