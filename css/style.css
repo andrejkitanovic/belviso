@@ -981,6 +981,60 @@ nav .mobile-nav .active-nav a {
     text-align: center;
 }
 
+/*-- USLUGE TRETMANI --*/
+
+.vrsta-usluge {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.vrsta-usluge img{
+    width: 100%;
+}
+
+.sve-usluge{
+    background: #fff;
+}
+
+.vrsta-tretmana {
+    margin:5% 10%;
+    padding:calc(2% + 20px);
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 15px #e5a2c73b;
+}
+
+.vrsta-tretmana h3{
+    color:#cb4390;
+    margin-bottom: 2%;
+}
+
+.vrsta-tretmana img{
+    max-width: 100%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+}
+
+.vrsta-tretmana a{
+    color:#cb4390;
+}
+
+.vrsta-tretmana ul {
+    margin-left: 25px;
+    list-style: disc!important;
+    overflow-x: visible!important;
+}
+
+.vrsta-tretmana ul li{
+    list-style: disc!important;
+    overflow-x: visible!important;
+}
+
+.vrsta-tretmana .trajanje {
+    color:#e5a2c7;
+    font-weight: bold;
+}
+
 @media (max-width: 1500px) {
     nav {
         display: block!important;
@@ -1090,56 +1144,7 @@ nav .mobile-nav .active-nav a {
         margin-left: 5%;
         margin-right: 5%;        
     }
-}
-
-.vrsta-usluge {
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.vrsta-usluge img{
-    width: 100%;
-}
-
-.sve-usluge{
-    background: #fff;
-}
-
-.vrsta-tretmana {
-    margin:5% 10%;
-    padding:calc(2% + 20px);
-    border-radius: 25px;
-    box-shadow: 0px 0px 20px 15px #e5a2c73b;
-}
-
-.vrsta-tretmana h3{
-    color:#cb4390;
-    margin-bottom: 2%;
-}
-
-.vrsta-tretmana img{
-    max-width: 100%;
-    margin-bottom: 5%;
-    border-radius: 25px;
-}
-
-.vrsta-tretmana a{
-    color:#cb4390;
-}
-
-.vrsta-tretmana ul {
-    margin-left: 25px;
-    list-style: disc!important;
-    overflow-x: visible!important;
-}
-
-.vrsta-tretmana ul li{
-    list-style: disc!important;
-    overflow-x: visible!important;
-}
-
-.vrsta-tretmana .trajanje {
-    color:#e5a2c7;
-    font-weight: bold;
+    .vrsta-tretmana {
+        box-shadow: 0px 0px 20px 5px #e5a2c73b;
+    }
 }
