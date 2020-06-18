@@ -4,5 +4,4 @@ $(document).ready(function () {
         $(this).parent().next(".mobile-nav").toggleClass("open");
     });
 
-
 });

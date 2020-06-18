@@ -1098,6 +1098,10 @@ nav .mobile-nav .active-nav a {
     margin-right: 10%;
 }
 
+.vrsta-usluge img{
+    width: 100%;
+}
+
 .sve-usluge{
     background: #fff;
 }
