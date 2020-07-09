@@ -954,17 +954,18 @@ nav .mobile-nav .active-nav a {
 
 .zakazivanje-informacije form input,
 .zakazivanje-informacije form textarea,
-.chosen-container {
+.tail-select{
   border: 2px solid #c395af6e;
 }
 
-.chosen-container {
+.tail-select{
   width: 100% !important;
   border-radius: .25rem;
   text-align: left;
 }
 
-.chosen-choices {
+
+.select-label {
   border: none !important;
 }
 
