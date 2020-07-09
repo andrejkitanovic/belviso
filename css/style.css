@@ -1017,7 +1017,11 @@ nav .mobile-nav .active-nav a {
 
 .akcije {
   text-align: center;
-  height: 60vh;
+}
+
+.aktivne-akcije{
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 .galerija-salon {
