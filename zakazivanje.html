@@ -12,7 +12,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/chosen.css" />
+    <link rel="stylesheet" href="css/tail.select-default.min.css">
 
     <!-- Ikonice -->
     <script defer src="js/all.min.js"></script>
@@ -879,11 +879,9 @@
     </script>
     <script src="js/nav.js"></script>
 
-    <script src="js/chosen.jquery.min.js"></script>
+    <script src="js/tail.select-full.min.js"></script>
     <script>
-      $(document).ready(function () {
-        $("#mselect").chosen();
-      });
+      tail.select("#mselect", {})
     </script>
   </body>
 </html>
