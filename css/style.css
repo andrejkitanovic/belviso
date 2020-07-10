@@ -818,6 +818,11 @@ nav .mobile-nav .active-nav a {
   margin-top: 12px;
 }
 
+.podnozje a{
+  color:#cb4390;
+  font-weight: bold;
+}
+
 /*-- KONTAKT - INFORMACIJE --*/
 
 .kontakt-informacije {
