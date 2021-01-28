@@ -390,7 +390,7 @@
 
           $tretmaniTekst = '';
           foreach ($tretmani as $imeTretmana) {
-            $tretmaniTekst = $tretmaniTekst . " , " . $imeTretmana;
+            $tretmaniTekst = $tretmaniTekst . ",  " . $imeTretmana;
           }
 
           $subjectName = 'Zakazivanje Tretmana ' . $ime;
